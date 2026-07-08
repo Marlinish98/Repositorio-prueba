@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cotiza</title>
+    <link rel="icon" href="https://res.cloudinary.com/dvgldrfbh/image/upload/Logo_TOUR_ttjqqj.png" />
+    <meta name="description"
+        content="Solicita tu cotización y descubre miles de opciones que Lujo Aventura Travel te ofrece">
+    <link rel="stylesheet" href="./css/form.css" />
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/flatpickr/dist/themes/material_blue.css">
+</head>
+
+<body>
+    <header>
+        <a class="btn__back" href="index.html">Volver</a>
+    </header>
+    <main class="hero-section">
+
+        <div class="form-content">
+            <h1>Cotiza tu viaje</h1>
+            <p class="subtitle">Este es el momento perfecto para una experiencia inolvidable</p>
+
+            <form id="formCotizacion" class="travel-form">
+                <div class="input-full">
+                    <label>Nombre completo</label>
+                    <input type="text" name="nombre" placeholder="Tu nombre" required>
+                </div>
+
+                <div class="input-row">
+                    <div class="input-group">
+                        <label>Número de teléfono <span>*</span></label>
+                        <input type="tel" name="telefono" required placeholder="+504 ...">
+                    </div>
+                    <div class="input-group">
+                        <label>Email</label>
+                        <input type="email" name="email" placeholder="correo@ejemplo.com" required>
+                    </div>
+                </div>
+
+                <div class="input-full">
+                    <label>Destino de interés</label>
+                    <input type="text" name="destino" placeholder="Ej. Roma, Italia" required>
+                </div>
+
+                <div class="input-row">
+                    <div class="input-group">
+                        <label>Fecha aproximada</label>
+                        <input type="text" name="fecha" id="fecha-viaje" class="flatpickr-input" aria-label="Fecha aproximada" required>
+                    </div>
+                    <div class="input-group">
+                        <label>Personas</label>
+                        <select aria-label="Cantidad de personas" name="personas">
+                            <option value="1">1 adulto</option>
+                            <option value="2" selected>2 adultos</option>
+                            <option value="3">3 adultos</option>
+                            <option value="4">4+ adultos</option>
+                        </select>
+                    </div>
+                </div>
+
+                <div class="input-full">
+                    <label>Presupuesto aproximado (opcional)</label>
+                    <input type="text" name="presupuesto" placeholder="Ej. $500 - $1000">
+                </div>
+
+                <button type="submit" class="btn-submit">
+                    <span class="btn-text">Solicitar Información</span>
+                </button>
+            </form>
+        </div>
+    </main>
+
+    <script src="https://cdn.jsdelivr.net/npm/flatpickr"></script>
+    <script src="https://npmcdn.com/flatpickr/dist/l10n/es.js"></script>
+    <script src="./js/formulario.js"></script>
+    <script src="./js/calendario.js"></script>
+</body>
+</html>

@@ -1,0 +1,258 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lujo Aventura Travel</title>
+    <link rel="icon" href="https://res.cloudinary.com/dvgldrfbh/image/upload/Logo_TOUR_ttjqqj.png" />
+    <meta name="description"
+        content="Descubre nuestros paquetes de servicios y solicita tu cotización en línea. Soluciones rápidas, profesionales y adaptadas a tus necesidades.">
+    <link rel="stylesheet" href="./css/estilos.css">
+    <link rel="preload" as="image"
+        href="img/hero-viajes.webp">
+
+</head>
+
+<body>
+    <div class="hero">
+
+        <img class="hero__bg" src="img/hero-viajes.webp" alt="foto viajes" width="1920" 
+     height="1080" 
+     fetchpriority="high" 
+     loading="eager">
+
+        <div class="hero__overlay"></div>
+        <header class="header">
+            <img  id="heroImage" class="logo" src="https://res.cloudinary.com/dvgldrfbh/image/upload/v1776835779/Asset_2_4x_f9ehsl.png"
+                alt="Lujo Aventura Travel">
+
+            <button class="hamburger" id="hamburger">☰</button>
+
+            <nav class="nav__main" id="nav-menu">
+                <div class="nav__links">
+                    <a href="#packages">Paquetes</a>
+                    <a href="#about">Quiénes somos</a>
+                    <a href="#why-us">Contáctanos</a>
+                </div>
+                <a class="btn" href="cotiza.html">Cotiza tu viaje</a>
+            </nav>
+        </header>
+
+        <div class="hero__content">
+            <h1>Tu viaje soñado empieza aquí</h1>
+            <p>Conoce sobre nuestros paquete y disfruta tus vacaciones</p> <a href="cotiza.html"
+                class="hero__btn">Cotiza
+                ahora</a>
+        </div>
+        <div id="cards-container" class="cards"></div>
+
+
+    </div>
+
+
+    <section class="about__section">
+        <section id="packages" class="paquetes__info">
+            <h2 class="paquete__text">Paquetes</h2>
+            <div class="contenedor">
+                <div class="paquete" id="contenedor-paquetes"></div>
+            </div>
+        </section>
+        <Section id="about">
+            <div class="about__container">
+                <div class="about__img__title"> <img class="about__img"
+                        src="https://res.cloudinary.com/dvgldrfbh/image/upload/v1777742834/IMG_1058-QUIENES_SOMOS_mvwieo.jpg"
+                        alt="Lujo Aventura Travel">
+                    <div class="about__title-text">
+                        <h2 class="section__title">Quiénes somos</h2>
+                        <h1 class="about__main__title"> Creamos experiencias que se convierten en historias. </h1>
+                        <p class="about__text"> En Lujo Aventura Travel creemos que cada viaje es una experiencia única
+                            que
+                            merece ser vivida al máximo. </p>
+                        <p class="about__text"> Somos una agencia comprometida en crear momentos inolvidables,
+                            conectando
+                            a
+                            nuestros clientes con destinos soñados a través de propuestas accesibles, seguras y
+                            personalizadas. Diseñamos experiencias tanto a nivel local como internacional, ya sea en
+                            grupo o
+                            a tu propio ritmo, cuidando cada detalle para que solo tengas que preocuparte por disfrutar.
+                        </p>
+                        <p class="about__text">Nuestro objetivo es que cada viaje no solo sea un destino, sino una
+                            historia
+                            que quieras repetir. </p>
+                    </div>
+                </div>
+                <div class="about__grid">
+                    <div class="about__card"> <svg xmlns="http://www.w3.org/2000/svg"
+                            viewBox="0 0 16 16"><!-- Icon from Octicons by GitHub - https://github.com/primer/octicons/blob/main/LICENSE -->
+                            <path fill="currentColor"
+                                d="m13.637 2.363l1.676.335c.09.018.164.084.19.173a.25.25 0 0 1-.062.249l-1.373 1.374a.88.88 0 0 1-.619.256H12.31L9.45 7.611A1.5 1.5 0 1 1 6.5 8a1.5 1.5 0 0 1 1.889-1.449l2.861-2.862V2.552c0-.232.092-.455.256-.619L12.88.559a.25.25 0 0 1 .249-.062c.089.026.155.1.173.19Z" />
+                            <path fill="currentColor"
+                                d="M2 8a6 6 0 1 0 11.769-1.656a.751.751 0 1 1 1.442-.413a7.502 7.502 0 0 1-12.513 7.371A7.501 7.501 0 0 1 10.069.789a.75.75 0 0 1-.413 1.442A6 6 0 0 0 2 8" />
+                            <path fill="currentColor"
+                                d="M5 8a3.002 3.002 0 0 0 4.699 2.476a3 3 0 0 0 1.28-2.827a.748.748 0 0 1 1.045-.782a.75.75 0 0 1 .445.61A4.5 4.5 0 1 1 8.516 3.53a.75.75 0 1 1-.17 1.49A3 3 0 0 0 5 8" />
+                        </svg>
+                        <h2>Misión</h2>
+                        <p> Crear experiencias de viaje memorables, ofreciendo paquetes accesibles, seguros y
+                            personalizados, con un servicio cercano y confiable que acompañe a nuestros clientes en cada
+                            paso de su aventura. </p>
+                    </div>
+                    <div class="about__card"> <svg xmlns="http://www.w3.org/2000/svg"
+                            viewBox="0 0 24 24"><!-- Icon from Material Symbols by Google - https://github.com/google/material-design-icons/blob/master/LICENSE -->
+                            <path fill="currentColor"
+                                d="M12 22q-.825 0-1.412-.587T10 20h4q0 .825-.587 1.413T12 22m-4-3v-2h8v2zm.25-3q-1.725-1.025-2.738-2.75T4.5 9.5q0-3.125 2.188-5.312T12 2t5.313 2.188T19.5 9.5q0 2.025-1.012 3.75T15.75 16z" />
+                        </svg>
+                        <h2>Visión</h2>
+                        <p> Convertirnos en una agencia de viajes referente por su calidad, innovación y atención
+                            personalizada, siendo la primera opción para quienes buscan viajar con confianza y vivir
+                            experiencias únicas. </p>
+                    </div>
+                    <div class="about__card"> <svg xmlns="http://www.w3.org/2000/svg"
+                            viewBox="0 0 24 24"><!-- Icon from Material Design Icons by Pictogrammers - https://github.com/Templarian/MaterialDesign/blob/master/LICENSE -->
+                            <path fill="currentColor"
+                                d="M20 17q.86 0 1.45.6t.58 1.4L14 22l-7-2v-9h1.95l7.27 2.69q.78.31.78 1.12q0 .47-.34.82t-.86.37H13l-1.75-.67l-.33.94L13 17zM16 3.23Q17.06 2 18.7 2q1.36 0 2.3 1t1 2.3q0 1.03-1 2.46t-1.97 2.39T16 13q-2.08-1.89-3.06-2.85t-1.97-2.39T10 5.3q0-1.36.97-2.3t2.34-1q1.6 0 2.69 1.23M.984 11H5v11H.984z" />
+                        </svg>
+                        <h2>Valores</h2>
+                        <ul class="valores__lista">
+                            <li>Pasión por los viajes</li>
+                            <li>Compromiso</li>
+                            <li>Transparencia</li>
+                            <li>Calidad</li>
+                            <li>Atención personalizada</li>
+                            <li>Innovación</li>
+                        </ul>
+                    </div>
+                </div>
+                <section class="stats__bar">
+    <!-- 10 Años de Experiencia -->
+    <div class="stat__card">
+        <div class="icon__container">
+            <svg xmlns="http://www.w3.org/2000/svg" width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                <rect x="2" y="7" width="20" height="14" rx="2" ry="2"></rect>
+                <path d="M16 21V5a2 2 0 0 0-2-2h-4a2 2 0 0 0-2 2v16"></path>
+            </svg>
+        </div>
+        <div class="info">
+            <span class="number">+10 AÑOS</span>
+            <p class="label">de experiencia</p>
+        </div>
+    </div>
+
+    <!-- Viajeros Felices -->
+    <div class="stat__card">
+        <div class="icon__container">
+            <svg xmlns="http://www.w3.org/2000/svg" width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                <path d="M17 21v-2a4 4 0 0 0-4-4H5a4 4 0 0 0-4 4v2"></path>
+                <circle cx="9" cy="7" r="4"></circle>
+                <path d="M23 21v-2a4 4 0 0 0-3-3.87"></path>
+                <path d="M16 3.13a4 4 0 0 1 0 7.75"></path>
+            </svg>
+        </div>
+        <div class="info">
+            <span class="number">+5,000</span>
+            <p class="label">viajeros felices</p>
+        </div>
+    </div>
+
+    <!-- Destinos -->
+    <div class="stat__card">
+        <div class="icon__container">
+            <svg xmlns="http://www.w3.org/2000/svg" width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                <circle cx="12" cy="12" r="10"></circle>
+                <line x1="2" y1="12" x2="22" y2="12"></line>
+                <path d="M12 2a15.3 15.3 0 0 1 4 10 15.3 15.3 0 0 1-4 10 15.3 15.3 0 0 1-4-10 15.3 15.3 0 0 1 4-10z"></path>
+            </svg>
+        </div>
+        <div class="info">
+            <span class="number">+50</span>
+            <p class="label">destinos increíbles</p>
+        </div>
+    </div>
+
+    <!-- Satisfacción -->
+    <div class="stat__card">
+        <div class="icon__container">
+            <svg xmlns="http://www.w3.org/2000/svg" width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                <polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"></polygon>
+            </svg>
+        </div>
+        <div class="info">
+            <span class="number">4.9/5</span>
+            <p class="label">satisfacción de nuestros clientes</p>
+        </div>
+    </div>
+</section>
+            </div>
+
+        </Section>
+    </section>
+    <section id="why-us" class="why__section">
+        <div class="why__container">
+            <h3 class="section__title">¿Por qué elegirnos?</h3>
+            <ul class="lista__beneficios">
+                <li class="beneficio__item">
+                    <img src="https://res.cloudinary.com/dvgldrfbh/image/upload/v1777744324/icons8-luna-de-miel_zgvv0s.gif"
+                        alt="Icono luna de miel" width="1200" height="800">
+                    <span>Paquetes accesibles y flexibles</span>
+                </li>
+                <li class="beneficio__item">
+                    <img src="https://res.cloudinary.com/dvgldrfbh/image/upload/v1777744968/icons8-servicio-al-cliente_kmx8em.gif"
+                        alt="Icono servicio al cliente" width="1200" height="800">
+                    <span>Asesoría personalizada</span>
+                </li>
+                <li class="beneficio__item">
+                    <img src="https://res.cloudinary.com/dvgldrfbh/image/upload/v1777745429/icons8-map_usowtw.gif"
+                        alt="Icono mapa" width="1200" height="800">
+                    <span>Destinos nacionales e internacionales</span>
+                </li>
+                <li class="beneficio__item">
+                    <img src="https://res.cloudinary.com/dvgldrfbh/image/upload/v1777745428/icons8-whatsapp_ogxgth.gif"
+                        alt="Icono WhatsApp" width="1200" height="800">
+                    <span>Atención rápida vía WhatsApp</span>
+                </li>
+                <li class="beneficio__item">
+                    <img src="https://res.cloudinary.com/dvgldrfbh/image/upload/v1777745427/icons8-ruta_n1zf30.gif"
+                        alt="Icono ruta" width="1200" height="800">
+                    <span>Experiencias diseñadas para cada viajero</span>
+                </li>
+            </ul>
+        </div>
+    </section> <a href="https://wa.me/504XXXXXXX?text=Hola%20quiero%20información%20sobre%20viajes"
+        class="whatsapp-float" target="_blank" aria-label="Chatear por WhatsApp"> <svg viewBox="0 0 32 32" fill="white">
+            <path
+                d="M16 .396C7.164.396 0 7.56 0 16.396c0 2.886.756 5.59 2.075 7.94L.396 32l7.85-1.64A15.91 15.91 0 0 0 16 32c8.836 0 16-7.164 16-16.004C32 7.56 24.836.396 16 .396zm0 29.268c-2.54 0-4.94-.68-7.02-1.96l-.5-.3-4.66.98.99-4.54-.32-.52A13.56 13.56 0 0 1 2.84 16c0-7.24 5.9-13.14 13.16-13.14 7.25 0 13.16 5.9 13.16 13.14 0 7.26-5.91 13.16-13.16 13.16zm7.21-9.88c-.39-.2-2.3-1.13-2.66-1.26-.36-.13-.62-.2-.88.2-.26.39-1.01 1.26-1.24 1.52-.23.26-.46.29-.85.1-.39-.2-1.64-.6-3.12-1.92-1.15-1.03-1.92-2.3-2.15-2.7-.23-.39-.02-.6.17-.8.17-.17.39-.46.59-.69.2-.23.26-.39.39-.66.13-.26.07-.49-.03-.69-.1-.2-.88-2.12-1.2-2.91-.31-.76-.63-.66-.88-.67-.23-.01-.49-.01-.75-.01-.26 0-.69.1-1.05.49-.36.39-1.38 1.35-1.38 3.29 0 1.94 1.41 3.81 1.6 4.07.2.26 2.76 4.21 6.7 5.9.94.41 1.67.65 2.24.83.94.3 1.8.26 2.48.16.76-.11 2.3-.94 2.63-1.85.33-.91.33-1.69.23-1.85-.1-.17-.36-.26-.75-.46z" />
+        </svg> </a>
+    <footer id="footer">
+        <section>
+            <ul class="header__social--primary">
+                <li class="header__icon"> <a href="https://www.facebook.com/share/1K4nJdWV16/?mibextid=wwXIfr"
+                        target="_blank" aria-label="Ir al facebook de Lujo Aventura Travel "> <svg
+                            xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor">
+                            <path
+                                d="M22.675 0h-21.35C.594 0 0 .592 0 1.324v21.352C0 23.406.594 24 1.325 24h11.495v-9.294H9.69v-3.622h3.13V8.413c0-3.1 1.893-4.788 4.659-4.788 1.325 0 2.464.099 2.795.143v3.24l-1.918.001c-1.504 0-1.795.715-1.795 1.763v2.312h3.587l-.467 3.622h-3.12V24h6.116C23.406 24 24 23.406 24 22.676V1.324C24 .592 23.406 0 22.675 0z" />
+                        </svg> </a> </li>
+                <li class="header__icon"> <a href="https://www.instagram.com/lujo_aventura_travel" target="_blank"
+                        aria-label="Ir a instagram de Marlon"> <svg xmlns="http://www.w3.org/2000/svg"
+                            fill="currentColor" class="bi bi-instagram" viewBox="0 0 16 16">
+                            <path
+                                d="M8 0C5.829 0 5.556.01 4.703.048 3.85.088 3.269.222 2.76.42a3.9 3.9 0 0 0-1.417.923A3.9 3.9 0 0 0 .42 2.76C.222 3.268.087 3.85.048 4.7.01 5.555 0 5.827 0 8.001c0 2.172.01 2.444.048 3.297.04.852.174 1.433.372 1.942.205.526.478.972.923 1.417.444.445.89.719 1.416.923.51.198 1.09.333 1.942.372C5.555 15.99 5.827 16 8 16s2.444-.01 3.298-.048c.851-.04 1.434-.174 1.943-.372a3.9 3.9 0 0 0 1.416-.923c.445-.445.718-.891.923-1.417.197-.509.332-1.09.372-1.942C15.99 10.445 16 10.173 16 8s-.01-2.445-.048-3.299c-.04-.851-.175-1.433-.372-1.941a3.9 3.9 0 0 0-.923-1.417A3.9 3.9 0 0 0 13.24.42c-.51-.198-1.092-.333-1.943-.372C10.443.01 10.172 0 7.998 0zm-.717 1.442h.718c2.136 0 2.389.007 3.232.046.78.035 1.204.166 1.486.275.373.145.64.319.92.599s.453.546.598.92c.11.281.24.705.275 1.485.039.843.047 1.096.047 3.231s-.008 2.389-.047 3.232c-.035.78-.166 1.203-.275 1.485a2.5 2.5 0 0 1-.599.919c-.28.28-.546.453-.92.598-.28.11-.704.24-1.485.276-.843.038-1.096.047-3.232.047s-2.39-.009-3.233-.047c-.78-.036-1.203-.166-1.485-.276a2.5 2.5 0 0 1-.92-.598 2.5 2.5 0 0 1-.6-.92c-.109-.281-.24-.705-.275-1.485-.038-.843-.046-1.096-.046-3.233s.008-2.388.046-3.231c.036-.78.166-1.204.276-1.486.145-.373.319-.64.599-.92s.546-.453.92-.598c.282-.11.705-.24 1.485-.276.738-.034 1.024-.044 2.515-.045zm4.988 1.328a.96.96 0 1 0 0 1.92.96.96 0 0 0 0-1.92m-4.27 1.122a4.109 4.109 0 1 0 0 8.217 4.109 4.109 0 0 0 0-8.217m0 1.441a2.667 2.667 0 1 1 0 5.334 2.667 2.667 0 0 1 0-5.334" />
+                        </svg> </a> </li>
+                <li class="header__icon"> <a href="https://vm.tiktok.com/ZS9LtMG5HKT4M-AnEIB/" target="_blank"
+                        aria-label="ir al tik tok de Lujo Aventura Travel"> <svg xmlns="http://www.w3.org/2000/svg"
+                            viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
+                            stroke-linecap="round" stroke-linejoin="round">
+                            <path d="M9 12a4 4 0 1 0 4 4V4a5 5 0 0 0 5 5"></path>
+                        </svg> </a> </li>
+            </ul>
+        </section>
+        <p class="back__to__top" id="btnTop">Inicio ↑</p>
+        <p>© 2026 Lujo Aventura Travel, Inc. All rights reserved.</p> <a class="footer__icono" href="https://icons8.com"
+            target="_blank" rel="nofollow">Iconos por Icons8</a>
+    </footer>
+    <div id="modalImagen" class="modal"> <span class="cerrar">&times;</span> <button class="btn-prev">&#10094;</button>
+        <img class="modal-contenido" id="imgAmpliada"> <button class="btn-next">&#10095;</button>
+    </div>
+    <script src="./js/script.js" defer></script>
+</body>
+
+</html>

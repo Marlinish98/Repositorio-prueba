@@ -1,0 +1,518 @@
+[
+  {
+    "id": "peru-01",
+    "nombre": "Perú",
+    "pais": "Lima, Cusco, Valle sagrado",
+    "lugar": "Lima, Cusco, Valle sagrado",
+    "copy": "Viaja y descubre lo mejor de Perú",
+    "descripcion": [
+      "6 días y 5 noches",
+      "Viajando del  12 al 30  de junio 2026",
+      "Todo incluido + traslado"
+    ],
+    "precio": {
+      "moneda": "USD",
+      "desde": 779
+    },
+    "etiquetas": [
+      {
+        "icono": "seguridad",
+        "titulo": "Seguridad",
+        "texto": "Tus datos protegidos"
+      },
+      {
+        "icono": "atencion",
+        "titulo": "Atención",
+        "texto": "Estamos para ayudarte"
+      },
+      {
+        "icono": "calendario",
+        "titulo": "Flexibilidad",
+        "texto": "Cambia sin complicaciones"
+      },
+      {
+        "icono": "medalla",
+        "titulo": "Mejor precio",
+        "texto": "Te ofrecemos lo mejor"
+      }
+    ],
+    "beneficios": [
+      {
+        "titulo": "Catedral de Lima",
+        "imagen": "https://res.cloudinary.com/dvgldrfbh/image/upload/v1778637191/PERU_5_rehs6c.webp",
+        "alt": "Vista frontal de la fachada de la Catedral de Lima desde la plaza durante el día"
+      },
+      {
+        "titulo": "Montaña de los Siete Colores",
+        "imagen": "https://res.cloudinary.com/dvgldrfbh/image/upload/v1778637088/PERU_3_rbdef5.webp",
+        "alt": "Vista panorámica de la colorida montaña Vinicunca bajo un cielo parcialmente nublado"
+      },
+      {
+        "titulo": "Machu Picchu",
+        "imagen": "https://res.cloudinary.com/dvgldrfbh/image/upload/v1778636929/Peru_1_wabizw.webp",
+        "alt": "Vista clásica de las ruinas de la ciudadela inca de Machu Picchu en una cresta montañosa."
+      }
+    ],
+    "imagenPrincipal": "https://res.cloudinary.com/dvgldrfbh/image/upload/v1778637161/PERU_6_syxmco.jpg",
+    "alt": "Llama de Perú"
+  },
+  {
+    "id": "argentina-02",
+    "nombre": "Argentina",
+    "pais": "Buenos Aires, Argentina",
+    "lugar": "Buenos Aires, Argentina",
+    "copy": "Vive, Buenos Aires Argentina como nunca",
+    "descripcion": [
+      "Del 10 al 15 de Agosto",
+      "Salidas Desde Honduras Y Panamá",
+      "Todo incluido + traslado"
+    ],
+    "precio": {
+      "moneda": "USD",
+      "desde": "1,500"
+    },
+    "etiquetas": [
+      {
+        "icono": "seguridad",
+        "titulo": "Seguridad",
+        "texto": "Tus datos protegidos"
+      },
+      {
+        "icono": "atencion",
+        "titulo": "Atención personalizada",
+        "texto": "Estamos para ayudarte"
+      },
+      {
+        "icono": "calendario",
+        "titulo": "Flexibilidad",
+        "texto": "Cambia sin complicaciones"
+      },
+      {
+        "icono": "medalla",
+        "titulo": "Mejor precio garantizado",
+        "texto": "Te ofrecemos lo mejor"
+      }
+    ],
+    "beneficios": [
+      {
+        "titulo": "Obelisco de Buenos Aires",
+        "imagen": "https://res.cloudinary.com/dvgldrfbh/image/upload/v1782003193/aerial-view-of-buenos-aires-at-night-with-obelisk-2026-03-24-23-44-35-utc_ow28xs.webp",
+        "alt": "Obelisco de Buenos Aires y la avenida 9 de Julio"
+      },
+      {
+        "titulo": "Ciudad de Buenos Aires",
+        "imagen": "https://res.cloudinary.com/dvgldrfbh/image/upload/v1782003867/shutterstock_1096407500_nduyht.webp",
+        "alt": "Ciudad de Buenos Aires"
+      },
+      {
+        "titulo": "Palacio Presidencial",
+        "imagen": "https://res.cloudinary.com/dvgldrfbh/image/upload/v1782004030/shutterstock_624216002_hcrrre.webp",
+        "alt": "Palacio Presidencial Argentino"
+      }
+    ],
+    "imagenPrincipal": "https://res.cloudinary.com/dvgldrfbh/image/upload/v1782003710/la-boca-caminito-12062019-729548_zjopwp.jpg",
+    "alt": "Colorful La Boca area"
+  },
+  {
+    "id": "mexico-03",
+    "nombre": "México",
+    "pais": "Cancún, Tulum Y Quintana Roo",
+    "lugar": "Cancún, Tulum Y Quintana Roo",
+    "copy": "Vive el paraíso en México",
+    "descripcion": [
+      "Promocion 2x1",
+      "Del 24 al 27 de septiembre",
+      "Reserva hoy con $300"
+    ],
+    "precio": {
+      "moneda": "USD",
+      "desde": "1,200"
+    },
+    "etiquetas": [
+      {
+        "icono": "seguridad",
+        "titulo": "Seguridad",
+        "texto": "Tus datos protegidos"
+      },
+      {
+        "icono": "atencion",
+        "titulo": "Atención personalizada",
+        "texto": "Estamos para ayudarte"
+      },
+      {
+        "icono": "calendario",
+        "titulo": "Flexibilidad",
+        "texto": "Cambia sin complicaciones"
+      },
+      {
+        "icono": "medalla",
+        "titulo": "Mejor precio garantizado",
+        "texto": "Te ofrecemos lo mejor"
+      }
+    ],
+    "beneficios": [
+      {
+        "titulo": "Plaza del Zócalo",
+        "imagen": "https://res.cloudinary.com/dvgldrfbh/image/upload/v1782005853/shutterstock-2742690575_rw3ffz.webp",
+        "alt": "Plaza del Zócalo"
+      },
+      {
+        "titulo": "Ruinas de la antigua ciudad maya de Edzna",
+        "imagen": "https://res.cloudinary.com/dvgldrfbh/image/upload/v1782005501/shutterstock_2702124467_qtiuzb.webp",
+        "alt": "Ruinas de la antigua ciudad maya de Edzna"
+      },
+       {
+        "titulo": "Playa de Tulun",
+        "imagen": "https://res.cloudinary.com/dvgldrfbh/image/upload/v1782005412/old-maya-beach-in-tulum-mexico-2026-03-26-02-22-04-utc_trcpby.webp",
+        "alt": "PLaya de Tulun"
+      }
+    ],
+    "imagenPrincipal": "https://res.cloudinary.com/dvgldrfbh/image/upload/v1782005182/Fondo_f0n3os.webp",
+    "alt": "Obelisco de Buenos Aires y la avenida 9 de Julio"
+  },
+  {
+    "id": "mexico-04",
+    "nombre": "México",
+    "pais": "Cozumel, Mexico",
+    "lugar": "Cozumel, Mexico",
+    "copy": "Escápate al paraíso todo incluido",
+    "descripcion": [
+      "3 noches en Cozumel",
+      "Niños viaja con 80% de Descuento",
+      "Reserva hoy"
+    ],
+    "precio": {
+      "moneda": "USD",
+      "desde": "579"
+    },
+    "etiquetas": [
+      {
+        "icono": "seguridad",
+        "titulo": "Seguridad",
+        "texto": "Tus datos protegidos"
+      },
+      {
+        "icono": "atencion",
+        "titulo": "Atención personalizada",
+        "texto": "Estamos para ayudarte"
+      },
+      {
+        "icono": "calendario",
+        "titulo": "Flexibilidad",
+        "texto": "Cambia sin complicaciones"
+      },
+      {
+        "icono": "medalla",
+        "titulo": "Mejor precio garantizado",
+        "texto": "Te ofrecemos lo mejor"
+      }
+    ],
+    "beneficios": [
+      {
+        "titulo": "Faro de Punta Langosta",
+        "imagen": "https://res.cloudinary.com/dvgldrfbh/image/upload/v1782007310/shutterstock_2681420581_zyzunl.webp",
+        "alt": "Faro de Punta Langosta"
+      },
+      {
+        "titulo": "Quintana Roo",
+        "imagen": "https://res.cloudinary.com/dvgldrfbh/image/upload/v1782008092/shutterstock_2156917051_yyoj4d.jpg",
+        "alt": "Quintana Roo"
+      },
+      {
+        "titulo": "Playa Cozumel",
+        "imagen": "https://res.cloudinary.com/dvgldrfbh/image/upload/v1782008789/jakob-owens-DGcomaLrtfM-unsplash_pdtmhy.webp",
+        "alt": "Ruinas de la antigua ciudad maya de Edzna"
+      }
+    ],
+    "imagenPrincipal": "https://res.cloudinary.com/dvgldrfbh/image/upload/v1782013498/fallon-michael-Ox_6M68VqfQ-unsplash_wk8ar9.webp",
+    "alt": "Cozumel Mexico"
+  },
+  {
+    "id": "Honduras-05",
+    "nombre": "Honduras",
+    "pais": "Tegucigalpa, Honduras",
+    "lugar": "Tegucigalpa, Honduras",
+    "copy": "Solo ven a disfrutar, Nosotros nos encargamos de todo",
+    "descripcion": [
+      "Disponible Viernes, sábado o  domingo",
+      "Experiencia para Dos",
+      "Reserva hoy"
+    ],
+    "precio": {
+      "moneda": "USD",
+      "desde": "269"
+    },
+    "etiquetas": [
+      {
+        "icono": "seguridad",
+        "titulo": "Seguridad",
+        "texto": "Tus datos protegidos"
+      },
+      {
+        "icono": "atencion",
+        "titulo": "Atención personalizada",
+        "texto": "Estamos para ayudarte"
+      },
+      {
+        "icono": "calendario",
+        "titulo": "Flexibilidad",
+        "texto": "Cambia sin complicaciones"
+      },
+      {
+        "icono": "medalla",
+        "titulo": "Mejor precio garantizado",
+        "texto": "Te ofrecemos lo mejor"
+      }
+    ],
+    "beneficios": [
+      {
+        "titulo": "Fiesta",
+        "imagen": "https://res.cloudinary.com/dvgldrfbh/image/upload/v1782013926/shutterstock_2668723099_o9nldn.webp",
+        "alt": "Fiesta Clarion"
+      },
+      {
+        "titulo": "Piscina",
+        "imagen": "https://res.cloudinary.com/dvgldrfbh/image/upload/v1782014030/shutterstock_2759585137_exkhc4.webp",
+        "alt": "Piscina Clarion"
+      },
+      {
+        "titulo": "Buffet",
+        "imagen": "https://res.cloudinary.com/dvgldrfbh/image/upload/v1782014120/shutterstock_2753822009_w99nbf.webp",
+        "alt": "Buffet Clarion"
+      }
+    ],
+    "imagenPrincipal": "https://res.cloudinary.com/dvgldrfbh/image/upload/v1782009711/Clarion_ppek5r.webp",
+    "alt": "Clarion Honduras"
+  },
+  {
+    "id": "Honduras-06",
+    "nombre": "Honduras",
+    "pais": "Tegucigalpa, Honduras",
+    "lugar": "Tegucigalpa, Honduras",
+    "copy": "Disfruta con los paquetes Clarion",
+    "descripcion": [
+      "Day Pass de las Américas",
+      "¡Almuerza como en Italia!",
+      "Brunch Italiano"
+    ],
+    "precio": {
+      "moneda": "LPS",
+      "desde": "200"
+    },
+    "etiquetas": [
+      {
+        "icono": "seguridad",
+        "titulo": "Seguridad",
+        "texto": "Tus datos protegidos"
+      },
+      {
+        "icono": "atencion",
+        "titulo": "Atención personalizada",
+        "texto": "Estamos para ayudarte"
+      },
+      {
+        "icono": "calendario",
+        "titulo": "Flexibilidad",
+        "texto": "Cambia sin complicaciones"
+      },
+      {
+        "icono": "medalla",
+        "titulo": "Mejor precio garantizado",
+        "texto": "Te ofrecemos lo mejor"
+      }
+    ],
+    "beneficios": [
+      {
+        "titulo": "Fiesta",
+        "imagen": "https://res.cloudinary.com/dvgldrfbh/image/upload/v1783474597/Clarion_post-02_f1xbva.webp",
+        "alt": "Fiesta Clarion"
+      },
+      {
+        "titulo": "Piscina",
+        "imagen": "https://res.cloudinary.com/dvgldrfbh/image/upload/v1783474597/Clarion_post-03_nurpq1.webp",
+        "alt": "Piscina Clarion"
+      },
+      {
+        "titulo": "Buffet",
+        "imagen": "https://res.cloudinary.com/dvgldrfbh/image/upload/v1783474597/Clarion_post-01_nhuitg.webp",
+        "alt": "Buffet Clarion"
+      }
+    ],
+    "imagenPrincipal": "https://res.cloudinary.com/dvgldrfbh/image/upload/v1783475244/Fondo_Lounge_Clarion_rgfijn.webp",
+    "alt": "Clarion Honduras"
+  },
+  {
+    "id": "Europa-06",
+    "nombre": "Europa",
+    "pais": "España, Italia, Francia y Suiza",
+    "lugar": "España, Italia, Francia y Suiza",
+    "copy": "Explora Europa como nunca antes",
+    "descripcion": [
+      "17 Dias y 15 Noches",
+      "Viajando en Noviembre, 2026",
+      "Maleta en Cabina 10 kg"
+    ],
+  
+    "precio": {
+      "moneda": "USD",
+      "desde": "2,799"
+    },
+    "etiquetas": [
+      {
+        "icono": "seguridad",
+        "titulo": "Seguridad",
+        "texto": "Tus datos protegidos"
+      },
+      {
+        "icono": "atencion",
+        "titulo": "Atención personalizada",
+        "texto": "Estamos para ayudarte"
+      },
+      {
+        "icono": "calendario",
+        "titulo": "Flexibilidad",
+        "texto": "Cambia sin complicaciones"
+      },
+      {
+        "icono": "medalla",
+        "titulo": "Mejor precio garantizado",
+        "texto": "Te ofrecemos lo mejor"
+      }
+    ],
+    "beneficios": [
+      {
+        "titulo": "Torre Eiffel",
+        "imagen": "https://res.cloudinary.com/dvgldrfbh/image/upload/v1782015076/shutterstock_2451814201_g3pqzo.webp",
+        "alt": "Torre Eiffel"
+      },
+      {
+        "titulo": "Coliseo Romano",
+        "imagen": "https://res.cloudinary.com/dvgldrfbh/image/upload/v1782015243/shutterstock_2501108547_n7vawx.webp",
+        "alt": "Coliseo Romano"
+      },
+      {
+        "titulo": "Torre Inclinada",
+        "imagen": "https://res.cloudinary.com/dvgldrfbh/image/upload/v1782061456/daria-andraczko-G4ArZNhhpsw-unsplash_t6wffr.webp",
+        "alt": "Torre Inclinada"
+      }
+    ],
+    "imagenPrincipal": "https://res.cloudinary.com/dvgldrfbh/image/upload/v1782014525/Fondo_Europa_copy_uggmy1.webp",
+    "alt": "Paises de Europa"
+  },
+  {
+    "id": "Punta Cana-07",
+    "nombre": "Republica Dominicana",
+    "pais": "Punta Cana",
+    "lugar": "Punta Cana",
+    "copy": "Escápate al paraíso y vive una experiencia todo incluido",
+    "descripcion": [
+      "Traslados incluidos",
+      "Noche adicional desde $182",
+      "Descuento de Hasta del 51%"
+    ],
+
+    "precio": {
+      "moneda": "USD",
+      "desde": "560"
+    },
+    "etiquetas": [
+      {
+        "icono": "seguridad",
+        "titulo": "Seguridad",
+        "texto": "Tus datos protegidos"
+      },
+      {
+        "icono": "atencion",
+        "titulo": "Atención personalizada",
+        "texto": "Estamos para ayudarte"
+      },
+      {
+        "icono": "calendario",
+        "titulo": "Flexibilidad",
+        "texto": "Cambia sin complicaciones"
+      },
+      {
+        "icono": "medalla",
+        "titulo": "Mejor precio garantizado",
+        "texto": "Te ofrecemos lo mejor"
+      }
+    ],
+    "beneficios": [
+      {
+        "titulo": "Piscinas",
+        "imagen": "https://res.cloudinary.com/dvgldrfbh/image/upload/v1782063170/shutterstock_2450168011_fg34vq.webp",
+        "alt": "Psicinas Punta Cana"
+      },
+      {
+        "titulo": "Playa tropical de arena blanca",
+        "imagen": "https://res.cloudinary.com/dvgldrfbh/image/upload/v1782063303/shutterstock_583369816_dptpum.webp",
+        "alt": "Playa tropical de arena blanca"
+      },
+      {
+        "titulo": "Punta Cana",
+        "imagen": "https://res.cloudinary.com/dvgldrfbh/image/upload/v1782064209/kalyan-mukherjee-vCEC4dw2PKo-unsplash_oub9qn.webp",
+        "alt": "Punta Cana"
+      }
+    ],
+    "imagenPrincipal": "https://res.cloudinary.com/dvgldrfbh/image/upload/v1782063050/Fondo_Punta_Cana_Palma_Real_copy_j7oypx.webp",
+    "alt": "Punta Cana"
+  },
+  {
+    "id": "Orlando-08",
+    "nombre": "Orlando",
+    "pais": "Orlando, Florida",
+    "lugar": "Orlando, Florida",
+    "copy": "Escápate al paraíso y vive una experiencia todo incluido",
+    "descripcion": [
+      "Incluye ingreso a parques Disney y SeaWorld",
+      "Cuponera de Descuento",
+      "Incluye Traslado y Hotel"
+    ],
+
+    "precio": {
+      "moneda": "USD",
+      "desde": "505"
+    },
+    "etiquetas": [
+      {
+        "icono": "seguridad",
+        "titulo": "Seguridad",
+        "texto": "Tus datos protegidos"
+      },
+      {
+        "icono": "atencion",
+        "titulo": "Atención personalizada",
+        "texto": "Estamos para ayudarte"
+      },
+      {
+        "icono": "calendario",
+        "titulo": "Flexibilidad",
+        "texto": "Cambia sin complicaciones"
+      },
+      {
+        "icono": "medalla",
+        "titulo": "Mejor precio garantizado",
+        "texto": "Te ofrecemos lo mejor"
+      }
+    ],
+    "beneficios": [
+      {
+        "titulo": "Walt Disney World",
+        "imagen": "https://res.cloudinary.com/dvgldrfbh/image/upload/v1782066977/2743470341_zdrsif.avif",
+        "alt": "Walt Disney World"
+      },
+      {
+        "titulo": "Disney Park",
+        "imagen": "https://res.cloudinary.com/dvgldrfbh/image/upload/v1782084607/Diseno-sin-titulo-2025-03-30T085254.184_rwutlq.webp",
+        "alt": "Disney Park"
+      },
+      {
+        "titulo": "Disney",
+        "imagen": "https://res.cloudinary.com/dvgldrfbh/image/upload/v1782084754/u1ha7mw5zdwuy2f03s18zmo0ssc3_shutterstock_1247131438_2_1_vvdpuc.webp",
+        "alt": "Disney"
+      }
+    ],
+    "imagenPrincipal": "https://res.cloudinary.com/dvgldrfbh/image/upload/v1782065113/shutterstock_2678451899_gequfo.webp",
+    "alt": "Orlando"
+  }
+]

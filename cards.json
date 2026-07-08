@@ -1,0 +1,23 @@
+[{
+  "id": "peru-01",
+    "pais": "Perú",
+    "lugar": "Lima, Cusco, Valle sagrado",
+    "imagen": "https://res.cloudinary.com/dvgldrfbh/image/upload/v1778636929/Peru_1_wabizw.webp",
+    "alt":"Vista clásica de las ruinas de la ciudadela inca de Machu Picchu en una cresta montañosa."
+  },
+  {
+    "id":"Europa-06",
+   "pais": "Europa",
+    "lugar": "España, Italia, Francia y Suiza",
+    "imagen": "https://res.cloudinary.com/dvgldrfbh/image/upload/v1782015243/shutterstock_2501108547_n7vawx.webp",
+    "alt":"Europa"
+  },
+  {
+    "id": "Orlando-08",
+    "pais": "Orlando",
+    "lugar": "Orlando, Florida",
+    "imagen": "https://res.cloudinary.com/dvgldrfbh/image/upload/v1782084607/Diseno-sin-titulo-2025-03-30T085254.184_rwutlq.webp",
+    "alt":"tOrlando, Florida"
+
+  }
+]
